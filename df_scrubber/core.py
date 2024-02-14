@@ -1,4 +1,7 @@
-# mypackage/core.py
+# df_scrubber/core.py
+
+
+# function to display all columns, their type, number of values, missing values, distinct values... 
 def evaluate_df(df):
     column_name_types = [(name, dtype.name) for name, dtype in df.dtypes.items()]
     rows_count = df.shape[0] * 100  # get number of all rows in the df
