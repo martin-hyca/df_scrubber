@@ -15,4 +15,5 @@ def evaluate_df(df):
     {values_count} values
     {distinct_values_count} distinct values
     {missing_values_count} missing values 
-    {missing_percentage:.5f}% of the rows missing""")
+    {missing_percentage:.5f}% of the rows missing
+    """)
